@@ -1,0 +1,22 @@
+﻿Build started 2015-12-07 오후 1:29:04.
+     1>Project "C:\Users\ksjung5\Desktop\RL확정프로젝트\Decoder\(source)line_patcher\line_patcher.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\line_patcher.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt line_patcherDlg.cpp
+         line_patcherDlg.cpp
+     1>c:\users\ksjung5\desktop\rl확정프로젝트\decoder\(source)line_patcher\line_patcherdlg.cpp(207): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\ksjung5\desktop\rl확정프로젝트\decoder\(source)line_patcher\line_patcherdlg.cpp(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\ksjung5\desktop\rl확정프로젝트\decoder\(source)line_patcher\line_patcherdlg.cpp(222): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\line_patcher.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\line_patcher.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\line_patcher.lib" /MACHINE:X86 /SAFESEH .\Debug\line_patcher.res
+         .\Debug\line_patcher.obj
+         .\Debug\line_patcherDlg.obj
+         .\Debug\StdAfx.obj
+         line_patcher.vcxproj -> C:\Users\ksjung5\Desktop\RL확정프로젝트\Decoder\(source)line_patcher\.\Debug\line_patcher.exe
+     1>Done Building Project "C:\Users\ksjung5\Desktop\RL확정프로젝트\Decoder\(source)line_patcher\line_patcher.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28
